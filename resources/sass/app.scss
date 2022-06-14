@@ -1,1 +1,28 @@
 //
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #636b6f;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+
+header{
+    nav{
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: #636b6f;
+                    font-family: "Nunito", sans-serif;
+                }
+            }
+        }
+    }
+}
