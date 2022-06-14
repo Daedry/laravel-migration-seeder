@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
  
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
 
-Route::get('/', 'PageController@index')->name('viaggi.index');
+Route::get('/', 'ViaggioController@index');
 // Route::get('/houses', 'HouseController@index')->name('house.index');
 // Route::get('/houses/{house}', 'HouseController@show')->name('house.show');

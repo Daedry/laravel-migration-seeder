@@ -6,13 +6,12 @@ use App\Viaggio;
 
 use Illuminate\Http\Request;
 
-class PageContoroller extends Controller
+class ViaggioController extends Controller
 {
     public function index()
     {
-        $viaggi = Viaggio::all();
+         $viaggi=viaggio::all();
         dd($viaggi);
-        return view('viaggi', compact('viaggi'));
+            return view('home', compact('viaggi'));
     }
-
 }
