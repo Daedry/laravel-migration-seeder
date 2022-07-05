@@ -17,7 +17,7 @@
  
         <header>
             <nav>
-                <ul class="p-4">
+                <ul class=" pt-3">
                     <li><a href="{{route('home')}}">Home</a></li>
                     <li class="px-4"><a href="{{route('travels')}}">Viaggi</a></li>
                     <li><a href="">Contact</a></li>
