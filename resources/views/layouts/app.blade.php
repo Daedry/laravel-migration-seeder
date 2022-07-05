@@ -17,9 +17,9 @@
  
         <header>
             <nav>
-                <ul>
+                <ul class="p-4">
                     <li><a href="{{route('home')}}">Home</a></li>
-                    <li><a href="{{route('travels')}}">Viaggi</a></li>
+                    <li class="px-4"><a href="{{route('travels')}}">Viaggi</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>

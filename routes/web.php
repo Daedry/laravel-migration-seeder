@@ -19,4 +19,4 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/travels', 'TravelController@index')->name('travels');
-// Route::get('/home', 'TravelController@index')->name('home');
+Route::get('/travels/{travel}', 'TravelController@show')->name('travel.show');

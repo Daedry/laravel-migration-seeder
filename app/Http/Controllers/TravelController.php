@@ -16,7 +16,7 @@ class TravelController extends Controller
     {
         $travels = Travel::all();
         // dd($viaggi);
-        return view('travels', compact('travels'));
+        return view('travel.index', compact('travels'));
     }
 
     /**
@@ -48,7 +48,7 @@ class TravelController extends Controller
      */
     public function show(travel $travel)
     {
-        //
+        return view('travel.show', compact('travel'));
     }
 
     /**
